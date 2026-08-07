@@ -6,7 +6,7 @@ struct sinhVien{
     int mssv;
     string hoTen;
     char queQuan[100];
-    char ngaySinh[10];
+    char ngaySinh[11];
     float gpa;
 };
 void nhapSinhVien(sinhVien &sv) 
